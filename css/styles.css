@@ -10,13 +10,19 @@ body {
   background-color: var(--primary-backgrond-color);
 }
 
-.header-logo {
+.link {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.16em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
   color: var(--primary-color-logo);
+}
+
+.list {
+  list-style: none;
 }
 
 .header-logo-accent {
@@ -27,7 +33,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2e2f42;
 }
 
 .header-address {
@@ -94,6 +103,7 @@ footer {
 
 .footer-paragraph {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 
 .efective-sol {
