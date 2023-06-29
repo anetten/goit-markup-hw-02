@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--primary-color);
+  color: #434455;
   background-color: var(--primary-backgrond-color);
 }
 
@@ -55,6 +55,16 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.1em;
+  color: #2e2f42;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+  color: #2e2f42;
+  text-align: center;
 }
 
 p {
@@ -84,4 +94,31 @@ footer {
 
 .footer-paragraph {
   color: #f4f4fd;
+}
+
+.efective-sol {
+  background-color: #2e2f42;
+}
+
+.efective-sol-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button-order {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.25em;
+  text-align: center;
+}
+
+.our-team {
+  background-color: #f4f4fd;
 }
