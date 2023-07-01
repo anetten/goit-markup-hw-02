@@ -86,7 +86,7 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
 }
@@ -95,7 +95,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -141,7 +141,7 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
   text-align: center;
 }
 
@@ -152,4 +152,10 @@ footer {
 
 .our-team {
   background-color: #f4f4fd;
+}
+
+.wawd {
+  line-height: 1.11;
+  letter-spacing: 0.02;
+  text-transform: capitalize;
 }
