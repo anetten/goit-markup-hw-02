@@ -129,19 +129,25 @@ footer {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
 }
 
 .button-order {
+  font-family: 'Roboto', sans-serif;
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
   text-align: center;
+}
+
+.button-order:hover,
+.button-order:focus {
+  background-color: #404bbf;
 }
 
 .our-team {
