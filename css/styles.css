@@ -10,7 +10,13 @@ body {
   background-color: var(--primary-backgrond-color);
 }
 
-.link {
+.link,
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -19,10 +25,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--primary-color-logo);
-}
-
-.list {
-  list-style: none;
 }
 
 .header-logo-accent {
@@ -35,7 +37,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
   color: #2e2f42;
 }
@@ -56,6 +58,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+  text-transform: lowercase;
   color: #434455;
 }
 
